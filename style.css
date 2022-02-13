@@ -1,0 +1,92 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+   
+}
+h1{
+    font-size: 43px;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 15px;
+}
+span{
+    color: orange;
+}
+.first-part{
+    width: 40%;
+    float:left;
+    padding-left: 5%;
+    margin: 2%;
+}
+.first-part img{
+    width: 90%;
+    height: 450px;
+}
+.peter-parker{
+    background-image: url("photos/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.button1{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    padding: 10px 20px;
+}
+.button2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(247, 218, 57), orange);
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+    padding: 10px 20px;
+}
+.nothing{
+    background-image: url("photos/dream-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 50px;
+}
+.movie-part{
+    background-image: url("photos/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+    height: 250px;
+}
+.movie-details{
+    float: left;
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 4%;
+    padding: 1%;
+    height: 200px;
+}
+.movie-name{
+    color: orange;
+}
+#no-way{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+#far-from{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1; 
+    border-radius: 20px;  
+}
+.copyright{
+    text-align: center;
+    height: 50px;
+    font-size: 15px;
+}
